@@ -1,6 +1,6 @@
 # RecipeManagement
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
+Simple Web Application Built using Angular2. and Angular CLI version 1.2.0.
 
 ## Development server
 

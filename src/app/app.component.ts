@@ -11,7 +11,6 @@ export class AppComponent {
   loadedView = 'recipe';
 
   onNavigate(selectedView: string) {
-    console.log(selectedView)
     this.loadedView = selectedView;
   }
 }

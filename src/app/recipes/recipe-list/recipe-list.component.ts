@@ -25,7 +25,7 @@ export class RecipeListComponent implements OnInit {
     this.recipes.push(new Recipe(
       'Test Name',
       'Test Desciption',
-      'http://img.sndimg.com/food/image/upload/h_420,w_560,c_fit/v1/img/recipes/90/97/5/xfirb0rQRMPAHtkSwTyA_THE%20FOOD%20GAYS%20-%20GREEK%20SALAD-2.jpg'
+      'https://upload.wikimedia.org/wikipedia/commons/9/94/Salad_platter.jpg'
     ));
   }
 

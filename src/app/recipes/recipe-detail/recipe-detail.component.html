@@ -1,11 +1,11 @@
 <div class="row">
   <div class="col-xs-12">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Salad_platter.jpg" alt="" class="img-responsive img-recipe-detail">
+    <img [src]="recipe.imagePath" alt="" class="img-responsive img-recipe-detail">
   </div>
 </div>
 <div class="row">
   <div class="col-xs-12">
-    <h1>Recipe Name</h1>
+    <h1>{{recipe.name}}</h1>
   </div>
 </div>
 <hr>
@@ -30,11 +30,11 @@
 
 <div class="row">
   <div class="col-xs-12">
-    Description
+    {{recipe.description}}
   </div>
 </div>
-<div class="row">
-  <div class="col-xs-12">
-    Ingredients
-  </div>
-</div>
+<!--<div class="row">-->
+  <!--<div class="col-xs-12">-->
+    <!--Ingredients-->
+  <!--</div>-->
+<!--</div>-->

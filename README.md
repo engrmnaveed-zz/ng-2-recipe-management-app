@@ -1,6 +1,6 @@
 # RecipeManagement
 
-Simple Web Application Built using Angular2. and Angular CLI version 1.2.0.
+Simple Web Application Built using Angular2. and Angular CLI version 1.2.0. visit working demo [here](http://recipes-demo.16xbrains.com/) 
 
 ## Development server
 

@@ -8,9 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   title = 'Recipe Manager';
-  loadedView = 'recipe';
 
-  onNavigate(selectedView: string) {
-    this.loadedView = selectedView;
-  }
 }

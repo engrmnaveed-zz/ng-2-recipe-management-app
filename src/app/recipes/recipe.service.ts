@@ -41,6 +41,10 @@ export class RecipeService {
     return this.recipes.slice(); // slice will return the new copy of this array rather than reference to this array (which is default behaviour)
   }
 
+  getRecipe(index: number) {
+    return this.recipes[index];
+  }
+
   addIngrediantsToShoppingList(ingrediants: Ingrediant[]) {
     this.shoppingListService.addIngrediants(ingrediants);
   }

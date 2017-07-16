@@ -3,6 +3,7 @@ import { Response } from '@angular/http';
 import { ToastrService } from 'ngx-toastr';
 
 import {DataStorageService} from '../shared/data-storage.service';
+import {AuthService} from '../auth/auth.service';
 
 @Component({
   selector: 'app-header',
@@ -11,7 +12,9 @@ import {DataStorageService} from '../shared/data-storage.service';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private dataStorageSerice: DataStorageService, private toastrService: ToastrService) { }
+  constructor(private dataStorageSerice: DataStorageService,
+              private toastrService: ToastrService,
+              private authService: AuthService) { }
 
   ngOnInit() {
   }
@@ -32,6 +35,10 @@ export class HeaderComponent implements OnInit {
     this.toastrService.success('All Recipes have been successfully fetched!', 'Fetched!', {
       positionClass: 'toast-bottom-left'
     });
+  }
+
+  onLogout() {
+    this.authService.logout();
   }
 
 }
